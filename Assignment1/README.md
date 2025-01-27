@@ -1,6 +1,5 @@
 # README
 ## Introduction to Multimedia Technology HW1
-*Student Id: 109062224*
 
 ---
 
@@ -79,9 +78,3 @@
     OrigShape=yiq_arr.shape
     rgb_arr = np.dot(yiq_arr.reshape(-1,3), np.linalg.inv(yiq_from_rgb).transpose()).reshape(OrigShape)
     ```
-
-<style>
-table th{
-    width: 100%;
-}
-</style>
